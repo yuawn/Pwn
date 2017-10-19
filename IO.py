@@ -18,7 +18,7 @@ IO = flat(
     _IO_backup_base ,   _IO_save_end      , # 0x60
     _markers        ,   _chain            , # 0x70
     _fileno         ,   _flags2           , # 0x80
-    mix               ,   _lock             , # 0x90
+    mix             ,   _lock             , # 0x90
     _offset         ,   _codecvt          , # 0xa0
     _wide_data      ,   _freeres_list     , # 0xb0
     _freeres_buf    ,   __pad5            , # 0xc0
