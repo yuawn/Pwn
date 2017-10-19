@@ -2,6 +2,7 @@ from pwn import *
 
 context.arch = 'amd64'
 
+
 mix = '''
     unsigned short _cur_column;
     signed char _vtable_offset;
